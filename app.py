@@ -1,13 +1,13 @@
-from app import app
+from app import App
 
 class HelloWorld(App):
-  def __init__():
+  def __init__(self):
     pass
 
-  def update():
-    pass:
+  def update(self, delta):
+    pass
 
-  def draw():
-    ctx.move_to(0, 0).text("I'm Richard!"]
+  def draw(self, ctx):
+    ctx.move_to(0, 0).text("I'm Richard!")
 
 __app_export__ = HelloWorld
