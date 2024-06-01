@@ -15,6 +15,7 @@ category = "Badge"
 # Useful if you want more resources (false) or need wifi (true).
 # Remove if you don't want to change wifi state!
 # wifi_preference = false
+wifi_preference = false
 
 [entry]
 # The name of your entry point `Application` class
