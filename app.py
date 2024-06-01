@@ -8,6 +8,6 @@ class HelloWorld(App):
     pass:
 
   def draw():
-    ctx.move_to(0, 0).text("Hello, world!"]
+    ctx.move_to(0, 0).text("I'm Richard!"]
 
 __app_export__ = HelloWorld
