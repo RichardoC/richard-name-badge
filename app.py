@@ -1,4 +1,5 @@
 from app import App
+from app_components import clear_background
 
 class HelloWorld(App):
   def __init__(self):
@@ -8,6 +9,9 @@ class HelloWorld(App):
     pass
 
   def draw(self, ctx):
-    ctx.move_to(0, 0).text("I'm Richard!")
+    clear_background(ctx)
+    ctx.text_align = ctx.CENTER
+    ctx.text_baseline = ctx.MIDDLE
+    ctx.move_to(0, 0).gray(1).text("I'm Richard")
 
 __app_export__ = HelloWorld
